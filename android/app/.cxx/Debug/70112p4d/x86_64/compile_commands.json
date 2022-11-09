@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/android/app/.cxx/Debug/70112p4d/x86_64",
+  "command": "/Users/axmadjonisaqov/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/axmadjonisaqov/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dexample_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -std=gnu99 -o CMakeFiles/example.dir/library.c.o -c /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example/library.c",
+  "file": "/Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example/library.c"
+}
+]

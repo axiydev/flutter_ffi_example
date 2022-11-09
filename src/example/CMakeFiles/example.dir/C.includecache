@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example/library.c
+library.h
+/Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example/library.h
+stdio.h
+-
+string.h
+-
+stddef.h
+-
+stdbool.h
+-
+stdlib.h
+-
+
+/Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example/library.h
+
