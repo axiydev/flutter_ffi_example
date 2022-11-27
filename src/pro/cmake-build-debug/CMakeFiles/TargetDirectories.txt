@@ -1,0 +1,3 @@
+/Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/pro/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/pro/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/pro/cmake-build-debug/CMakeFiles/pro.dir

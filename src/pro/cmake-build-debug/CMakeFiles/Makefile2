@@ -54,16 +54,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example
+CMAKE_SOURCE_DIR = /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/pro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example
+CMAKE_BINARY_DIR = /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/pro/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/example.dir/all
+all: CMakeFiles/pro.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/example.dir/clean
+clean: CMakeFiles/pro.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/example.dir
+# Target rules for target CMakeFiles/pro.dir
 
 # All Build rule for target.
-CMakeFiles/example.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example/CMakeFiles --progress-num=1,2 "Built target example"
-.PHONY : CMakeFiles/example.dir/all
+CMakeFiles/pro.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/pro/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target pro"
+.PHONY : CMakeFiles/pro.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example/CMakeFiles 0
-.PHONY : CMakeFiles/example.dir/rule
+CMakeFiles/pro.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/pro/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pro.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/pro/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/pro.dir/rule
 
 # Convenience name for target.
-example: CMakeFiles/example.dir/rule
-.PHONY : example
+pro: CMakeFiles/pro.dir/rule
+.PHONY : pro
 
 # clean rule for target.
-CMakeFiles/example.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/clean
-.PHONY : CMakeFiles/example.dir/clean
+CMakeFiles/pro.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/clean
+.PHONY : CMakeFiles/pro.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

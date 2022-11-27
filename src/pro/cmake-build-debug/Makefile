@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example
+CMAKE_SOURCE_DIR = /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/pro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example
+CMAKE_BINARY_DIR = /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/pro/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example/CMakeFiles /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/pro/cmake-build-debug/CMakeFiles /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/pro/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/example/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/axmadjonisaqov/CLionProjects/flutter_ffi_example/src/pro/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named example
+# Target rules for targets named pro
 
 # Build rule for target.
-example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example
-.PHONY : example
+pro: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pro
+.PHONY : pro
 
 # fast build rule for target.
-example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
-.PHONY : example/fast
+pro/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/build
+.PHONY : pro/fast
 
-library.o: library.c.o
-.PHONY : library.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-library.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/library.c.o
-.PHONY : library.c.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-library.i: library.c.i
-.PHONY : library.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-library.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/library.c.i
-.PHONY : library.c.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-library.s: library.c.s
-.PHONY : library.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-library.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/library.c.s
-.PHONY : library.c.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... example"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
+	@echo "... pro"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
